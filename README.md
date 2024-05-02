@@ -11,4 +11,4 @@ Create a repository in your GitHub account. Put your solution there. In the read
 
 Make sure you have a TestProgram that will validate the proposed refactored codes.
 
-OOP.jpeg
+
