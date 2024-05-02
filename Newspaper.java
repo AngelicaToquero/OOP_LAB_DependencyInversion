@@ -1,12 +1,12 @@
 public class Newspaper implements LibraryResource {
-    private String newspaper;
+    private String newspaperName;
 
-    public Newspaper(String newspaper) {
-        this.newspaper = newspaper;
+    public Newspaper(String newspaperName) {
+        this.newspaperName = newspaperName;
     }
 
     @Override
     public void borrow() {
-        System.out.println(newspaper + " has been borrowed by a student.");
+        System.out.println(newspaperName + " has been borrowed by a student.");
     }
 }

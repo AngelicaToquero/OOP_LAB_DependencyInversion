@@ -1,12 +1,12 @@
 public class Thesis implements LibraryResource {
-    private String thesistitle;
+    private String thesisTitle;
 
-    public Thesis(String thesistitle) {
-        this.thesistitle = thesistitle;
+    public Thesis(String thesisTitle) {
+        this.thesisTitle = thesisTitle;
     }
 
     @Override
     public void borrow() {
-        System.out.println(thesistitle + " has been borrowed by a student.");
+        System.out.println(thesisTitle + " has been borrowed by a student.");
     }
 }

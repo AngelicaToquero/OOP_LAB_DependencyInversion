@@ -1,12 +1,12 @@
 public class Capstone implements LibraryResource {
-    private String capstone;
+    private String capstoneTitle;
 
-    public Capstone(String capstone) {
-        this.capstone = capstone;
+    public Capstone(String capstoneTitle) {
+        this.capstoneTitle = capstoneTitle;
     }
 
     @Override
     public void borrow() {
-        System.out.println(capstone + " has been borrowed by a student.");
+        System.out.println(capstoneTitle + " has been borrowed by a student.");
     }
 }

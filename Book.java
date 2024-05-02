@@ -1,12 +1,12 @@
 public class Book implements LibraryResource {
-    private String booktitle;
+    private String bookTitle;
 
-    public Book(String booktitle) {
-        this.booktitle = booktitle;
+    public Book(String bookTitle) {
+        this.bookTitle = bookTitle;
     }
 
     @Override
     public void borrow() {
-        System.out.println(booktitle + " has been borrowed by a student.");
+        System.out.println(bookTitle + " has been borrowed by a student.");
     }
 }

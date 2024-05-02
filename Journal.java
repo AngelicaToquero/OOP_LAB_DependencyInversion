@@ -1,12 +1,12 @@
 public class Journal implements LibraryResource {
-    private String journal;
+    private String journalTitle;
 
-    public Journal(String journal) {
-        this.journal = journal;
+    public Journal(String journalTitle) {
+        this.journalTitle = journalTitle;
     }
 
     @Override
     public void borrow() {
-        System.out.println(journal + " has been borrowed by a student.");
+        System.out.println(journalTitle + " has been borrowed by a student.");
     }
 }
