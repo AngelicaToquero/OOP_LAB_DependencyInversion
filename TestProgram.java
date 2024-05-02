@@ -12,7 +12,7 @@ public class TestProgram {
         LibraryResource capstone = new Capstone("E-Learning System");
         student.borrowResource(capstone);
 
-        LibraryResource internetAccess = new InternetAccess();
+        LibraryResource internetAccess = new InternetAccess("NEU Admin");
         student.borrowResource(internetAccess);
 
         LibraryResource journal = new Journal("Research Journal");
