@@ -12,3 +12,4 @@ Create a repository in your GitHub account. Put your solution there. In the read
 Make sure you have a TestProgram that will validate the proposed refactored codes.
 
 
+![OOP](https://github.com/AngelicaToquero/OOP_LAB_DependencyInversion/assets/152822754/f84b7478-9202-4db3-9058-ef98238ef910)
