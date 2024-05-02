@@ -9,8 +9,4 @@ public class Journal implements LibraryResource {
     public void borrow() {
         System.out.println(journal + " has been borrowed by a student.");
     }
-
-    public String getJournal() {
-        return journal;
-    }
 }

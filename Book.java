@@ -9,8 +9,4 @@ public class Book implements LibraryResource {
     public void borrow() {
         System.out.println(booktitle + " has been borrowed by a student.");
     }
-
-    public String getTitle() {
-        return booktitle;
-    }
 }

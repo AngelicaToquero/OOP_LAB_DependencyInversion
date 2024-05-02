@@ -4,9 +4,6 @@ public class Student {
     public Student(String name) {
         this.name = name;
     }
-    public String getName() {
-        return name;
-    }
 
     public void borrowResource(LibraryResource resource) {
         resource.borrow();

@@ -9,8 +9,4 @@ public class Newspaper implements LibraryResource {
     public void borrow() {
         System.out.println(newspaper + " has been borrowed by a student.");
     }
-
-    public String getTitle() {
-        return newspaper;
-    }
 }

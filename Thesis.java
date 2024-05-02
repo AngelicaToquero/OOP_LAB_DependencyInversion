@@ -9,8 +9,4 @@ public class Thesis implements LibraryResource {
     public void borrow() {
         System.out.println(thesistitle + " has been borrowed by a student.");
     }
-
-    public String getTitle() {
-        return thesistitle;
-    }
 }
