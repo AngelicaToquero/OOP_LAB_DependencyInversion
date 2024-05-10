@@ -1,3 +1,3 @@
 public interface LibraryResource{
-    void borrow();
+    void borrowResource(Student student);
 }

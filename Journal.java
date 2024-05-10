@@ -6,7 +6,10 @@ public class Journal implements LibraryResource {
     }
 
     @Override
-    public void borrow() {
-        System.out.println(journalTitle + " has been borrowed by a student.");
+        public void borrowResource(Student student) {
+            System.out.println(journalTitle + " has been borrowed by " + 
+                                "\nName: " + student.getFirstName() + " " + student.getLastName() + 
+                                "\nStudent ID: " + student.getStudentNo() + 
+                                "\nProgram: " + student.getProgram());
     }
 }

@@ -28,9 +28,4 @@ public class Student {
         return firstName;
     }
 
-    public void borrowResource(LibraryResource resource) {
-     resource.borrow();
-    }
-
-
 }

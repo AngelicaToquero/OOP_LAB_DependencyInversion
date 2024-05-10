@@ -6,7 +6,10 @@ public class InternetAccess implements LibraryResource {
     }
 
     @Override
-    public void borrow() {
-        System.out.println(internetaccessName + " has been granted by a student.");
+    public void borrowResource(Student student) {
+        System.out.println(internetaccessName + " has been granted by " + 
+                            "\nName: " + student.getFirstName() + " " + student.getLastName() + 
+                            "\nStudent ID: " + student.getStudentNo() + 
+                            "\nProgram: " + student.getProgram());
     }
 }

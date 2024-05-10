@@ -6,7 +6,10 @@ public class Newspaper implements LibraryResource {
     }
 
     @Override
-    public void borrow() {
-        System.out.println(newspaperName + " has been borrowed by a student.");
+    public void borrowResource(Student student) {
+        System.out.println(newspaperName + " has been borrowed by " + 
+                            "\nName: " + student.getFirstName() + " " + student.getLastName() + 
+                            "\nStudent ID: " + student.getStudentNo() + 
+                            "\nProgram: " + student.getProgram());
     }
 }
