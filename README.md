@@ -14,6 +14,7 @@ Make sure you have a TestProgram that will validate the proposed refactored code
 
 UML Class Diagram 
 
-![OOP (1)](https://github.com/AngelicaToquero/OOP_LAB_DependencyInversion/assets/152822754/e533e9da-4688-4242-8d72-3a03428aab21)
+![OOP (2)](https://github.com/AngelicaToquero/OOP_LAB_DependencyInversion/assets/152822754/19265dfb-1ab0-4854-a985-be7d51b4f5f9)
+
 
 
