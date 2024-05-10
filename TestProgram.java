@@ -1,7 +1,7 @@
 public class TestProgram {
     public static void main(String[] args) {
        
-        Student student = new Student("Angelica");
+        Student student = new Student("22-10329-294" , "Toquero", "Angelica" , "BSCS");
 
         LibraryResource book = new Book("Introduction to Object Oriented Programming");
         student.borrowResource(book);
