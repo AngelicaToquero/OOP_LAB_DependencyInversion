@@ -1,6 +1,11 @@
 public class Library {
-    public void borrowResource(Student student, LibraryResource libraryResource) {
+    private final LibraryResource libraryResource;
+
+    public Library(LibraryResource libraryResource) {
+        this.libraryResource = libraryResource;
+    }
+
+    public void borrowResource(Student student) {
         libraryResource.borrowResource(student);
     }
-    
 }
