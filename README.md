@@ -12,5 +12,7 @@ Create a repository in your GitHub account. Put your solution there. In the read
 Make sure you have a TestProgram that will validate the proposed refactored codes.
 
 
-UML Class Diagram (To Edit)
+UML Class Diagram 
+
+![OOP](https://github.com/AngelicaToquero/OOP_LAB_DependencyInversion/assets/152822754/9d72337f-6d52-4375-bf38-e8579f9f8f27)
 
